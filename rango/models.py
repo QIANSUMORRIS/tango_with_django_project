@@ -17,7 +17,7 @@ class Category(models.Model):
     class Meta:
         verbose_name_plural = 'Categories'
 
-    def __str__(self): # For Python 2, use __unicode__ too
+    def __unicode__(self): # For Python 2, use __unicode__ too
         return self.name
 
 
@@ -32,7 +32,7 @@ class Page(models.Model):
     #     self.slug = slugify(self.title)
     #     super(Page, self).save(*args, **kwargs)
 
-    def __str__(self): # For Python 2, use __unicode__ too
+    def __unicode__(self): # For Python 2, use __unicode__ too
         return self.title
 
 class UserProfile(models.Model):
