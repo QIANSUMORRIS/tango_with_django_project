@@ -29,6 +29,8 @@ print(os.path.dirname(os.path.dirname(__file__)))
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'i1w)2*q7#i*lrxe2u)=)(u=ar3+)ge=y8zuh5pu6ixi!nn))9&'
 
+SESSION_EXPIRE_AT_BROWSER_CLOSE = True
+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
